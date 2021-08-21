@@ -11,7 +11,7 @@ while True:
     t=now.strftime('%H:%M')
     if t==start:
         driver = webdriver.Chrome(
-            executable_path='C:\\Users\Zein Zebib\\Documents\\Python Stuff\\Online Automation\\chromedriver')
+            executable_path='put chromedriver path here')
         driver.get(str('https://www.youtube.com/watch?v=dQw4w9WgXcQ'))
         sleep(3)
         press('space')
