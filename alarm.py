@@ -4,7 +4,7 @@ from time import sleep
 from datetime import datetime
 
 
-start=str("11:00")
+start=str("put time here in Ex: 09:01")
 
 while True:
     now= datetime.now()
